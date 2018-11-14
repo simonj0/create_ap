@@ -61,10 +61,16 @@ _create_ap() {
         --hidden)
             # No Options
             ;;
-        --mac-filter)
+        --mac-filter-accept)
             # No Options
             ;;
-        --mac-filter-accept)
+        --mac-filter-deny)
+            # No Options
+            ;;
+        --mac-filter-accept-file)
+            # No Options
+            ;;
+        --mac-filter-deny-file)
             # No Options
             ;;
         --ieee80211n)
